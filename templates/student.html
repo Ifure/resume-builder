@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <h1>{{ userData.name}}</h1>
+        <p>{{ userData.bio}}</p>
+        <ul>
+            {{#each userData.projects}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <h3>{{userData.education}}</h3>
+        <p>{{userData.contact}}</p>
+    </body>
+</html>

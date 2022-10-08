@@ -1,0 +1,18 @@
+.resume-thumbnail{
+    width: 10rem;
+    cursor: pointer;
+    border: 10px solid #fff;
+}
+
+.resume-thumbnail:hover{
+    border: 10px solid #26494c90;
+    box-sizing: border-box;
+}
+
+#on-boarding{
+    background-color: rgb(250, 250, 227);
+}
+
+#bio{
+    height: 223px;
+}
