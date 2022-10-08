@@ -19,5 +19,7 @@ or
 ```
 node index
 ```
+also don't forget to ``cd client/`` and run ``npm run build``
+ 
 theres only one end point ``/resume/:resumeType`` which is a post end point that receives all the data and creates a pdf file. You can test this end point manually using [postman](https://www.postman.com/downloads/) or curl
 Whats left is to interpolate the data into the templates created and send the pdf as a buffer. You can check out the [pdf package I am using](https://www.npmjs.com/package/pdf-creator-node)
